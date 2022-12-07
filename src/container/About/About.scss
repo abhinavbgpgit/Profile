@@ -1,0 +1,168 @@
+.app__about {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app__profiles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  width: 100%;
+
+}
+
+.app__profile-item {
+  width: 190px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 2rem;
+
+
+
+  @media screen and (min-width: 2000px) {
+    width: 370px;
+    margin: 2rem 4rem;
+
+    img {
+      height: 320px;
+    }
+  }
+}
+.about__image
+{
+  width:100%;
+  background-color: red;
+}
+.about_main
+{
+ display:flex;
+ justify-content: space-between;
+ 
+
+ width: 90%;
+}
+.my__image
+{
+
+width: 100%;
+border-radius: 5px;
+margin-bottom: -5px;
+}
+.my__image__wraper
+
+{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+.my__image__wraper_inner
+{
+  border: 15px solid rgb(233, 194, 194);
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.about__me__text
+{
+  width: 50%;
+ 
+}
+.my__name
+{
+   font-size: 22px;
+  color: red;
+}
+.my_details
+{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.my_details_1
+{
+ 
+  flex: 1;
+  ul{
+    text-decoration: none;
+  }
+
+li {
+ 
+  padding: 10px;
+  list-style: none;
+  font-weight: bold;
+  .my_detail_row {
+display: flex;
+
+align-items: center;
+
+.my_detail_icon
+{
+margin-left: 10px;
+
+}
+.my_detail_title
+{
+  margin-left: 7px;
+}
+.my_detail_value
+{
+  margin-left: 20px;
+  opacity: 0.5;
+}
+
+  }
+}
+
+}
+.about__button
+{
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;;
+  border-radius: 5px;
+  margin-top: 50px;
+  background-color: rgb(47, 103, 244);
+  border: 1px;
+  margin-left: 20px;
+  
+}
+.download_link
+{
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 600px)
+{
+  .about__me__text
+{
+  width: 100%;
+  padding: 15px;
+  margin-top: 40px;
+ 
+}
+.about_main
+{
+ display:flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ width: 100%;
+}
+.my__image__wraper_inner
+{
+  border: 15px solid rgb(233, 194, 194);
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+}
